@@ -17,7 +17,7 @@ fi
 
 # Check for HTML tags in other files (excluding documentation about HTML)
 echo "2. Checking for HTML tags in files..."
-html_tags=$(grep -r -i -l "<!DOCTYPE\|<html\|<head\|<body" . --exclude-dir=.git --exclude="*.sh" --exclude="HTML_VERIFICATION.md" 2>/dev/null)
+html_tags=$(grep -r -i -E -l '<(html|head|body|div|span|p|a|img|script|style|link|meta|title)[^>]*>|<!DOCTYPE' . --exclude-dir=.git --exclude="*.sh" --exclude="HTML_VERIFICATION.md" 2>/dev/null)
 if [ -z "$html_tags" ]; then
     echo "   ✓ No HTML tags found in files"
 else

@@ -2,16 +2,6 @@
 *.html
 *.htm
 
-# Common web files
-*.css
-*.js.map
-
-# Build artifacts
-dist/
-build/
-*.min.js
-*.min.css
-
 # IDE and editor files
 .vscode/
 .idea/
