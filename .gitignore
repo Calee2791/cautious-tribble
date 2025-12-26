@@ -1,0 +1,28 @@
+# HTML files - prevent HTML code from being added to repository
+*.html
+*.htm
+
+# Common web files
+*.css
+*.js.map
+
+# Build artifacts
+dist/
+build/
+*.min.js
+*.min.css
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
