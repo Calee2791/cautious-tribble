@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Inner Compass - Holistic Recovery & Energy Healing</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Inter Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles for a calming, professional look */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8faff; /* Very light blue/off-white */
+        }
+        .text-primary { color: #5B21B6; } /* Deep Purple */
+        .bg-primary { background-color: #5B21B6; }
+        .text-secondary { color: #10B981; } /* Emerald Green */
+        .shadow-calm { box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -2px rgba(0, 0, 0, 0.05); }
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(91, 33, 182, 0.15), 0 4px 6px -4px rgba(91, 33, 182, 0.1);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header & Navigation -->
+    <header class="sticky top-0 z-50 bg-white shadow-calm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-extrabold text-primary tracking-tight">
+                The Inner Compass
+            </h1>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#home" class="text-gray-600 hover:text-primary transition duration-150">Home</a>
+                <a href="#focus" class="text-gray-600 hover:text-primary transition duration-150">Our Focus</a>
+                <a href="#modalities" class="text-gray-600 hover:text-primary transition duration-150">Modalities</a>
+                <a href="#origin" class="text-gray-600 hover:text-primary transition duration-150">My Story</a>
+                <a href="#pricing" class="text-gray-600 hover:text-primary transition duration-150">Pricing</a>
+                <a href="#testimonials" class="text-gray-600 hover:text-primary transition duration-150">Testimonials</a>
+                <a href="#prepare" class="text-gray-600 hover:text-primary transition duration-150">Prepare</a>
+                <a href="#ethics" class="text-gray-600 hover:text-primary transition duration-150">Our Promise</a>
+                <a href="#contact" class="text-gray-600 hover:text-primary transition duration-150 font-semibold">Book Now</a>
+            </nav>
+            <!-- Mobile Menu Toggle Button -->
+            <button id="mobile-menu-button" class="md:hidden text-primary focus:outline-none">
+                <svg id="menu-icon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                <svg id="close-icon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
+        </div>
+        <!-- Mobile Menu Container -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-calm pb-4">
+            <nav class="flex flex-col space-y-2 px-4">
+                <a href="#home" class="py-2 text-gray-600 hover:text-primary border-b border-gray-100 transition duration-150">Home</a>
+                <a href="#focus" class="py-2 text-gray-600 hover:text-primary border-b border-gray-100 transition duration-150">Our Focus</a>
+                <a href="#modalities" class="py-2 text-gray-600 hover:text-primary border-b border-gray-100 transition duration-150">Modalities</a>
+                <a href="#origin" class="py-2 text-gray-600 hover:text-primary border-b border-gray-100 transition duration-150">My Story</a>
+                <a href="#pricing" class="py-2 text-gray-600 hover:text-primary border-b border-gray-100 transition duration-150">Pricing</a>
+                <a href="#testimonials" class="py-2 text-gray-600 hover:text-primary border-b border-gray-100 transition duration-150">Testimonials</a>
+                <a href="#prepare" class="py-2 text-gray-600 hover:text-primary border-b border-gray-100 transition duration-150">Prepare</a>
+                <a href="#ethics" class="py-2 text-gray-600 hover:text-primary border-b border-gray-100 transition duration-150">Our Promise</a>
+                <a href="#contact" class="pt-2 text-primary font-bold hover:text-purple-700 transition duration-150">Book Now</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- 1. Hero Section -->
+        <section id="home" class="relative overflow-hidden pt-16 pb-24 md:pt-24 md:pb-36 bg-primary/10">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                <div class="lg:w-3/5">
+                    <span class="inline-block px-3 py-1 text-sm font-semibold text-primary bg-white rounded-full mb-4 shadow-calm">
+                        Holistic & Compassionate Care
+                    </span>
+                    <h2 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight mb-6">
+                        Navigating Recovery with <span class="text-primary">Clarity and Inner Peace.</span> <span class="text-3xl align-middle">🪷</span>
+                    </h2>
+                    <p class="text-xl text-gray-600 mb-10 max-w-lg">
+                        We offer a unique path to healing from Substance Use and Co-Occurring Disorders, integrating traditional support with powerful energy modalities for deep, lasting transformation.
+                    </p>
+                    <a href="#contact" class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-bold rounded-xl shadow-lg text-white bg-primary hover:bg-purple-800 transition duration-300 transform hover:scale-105">
+                        Begin Your Journey
+                    </a>
+                </div>
+            </div>
+            <!-- Decorative wave/swoosh (SVG Placeholder for aesthetics) -->
+            <svg class="absolute bottom-0 left-0 w-full h-auto text-white fill-current" viewBox="0 0 1440 100" preserveAspectRatio="none">
+                <path d="M0,0 L1440,0 L1440,50 C1200,80 960,100 720,100 C480,100 240,80 0,50 L0,0 Z"></path>
+            </svg>
+        </section>
+
+        <!-- 2. Core Focus Section -->
+        <section id="focus" class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h3 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4 flex items-center justify-center">
+                        Understanding SUD, COD, and Our Approach
+                        <!-- Phoenix/Rebirth SVG Inline -->
+                        <svg class="w-8 h-8 ml-3 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    </h3>
+                    <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                        We recognize that recovery is more than just stopping a behavior; it’s about healing the underlying spiritual and emotional wounds that contribute to Substance Use Disorder (SUD) and Co-Occurring Disorders (COD). **When conventional approaches fall short, integrating energy healing can provide the missing piece for successful, sustained recovery.**
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="p-6 bg-primary/5 rounded-xl card">
+                        <div class="text-primary mb-3">
+                            <!-- Icon for SUD -->
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10m0 0h16a1 1 0 001-1V8a1 1 0 00-1-1H4zm0 10l-4-4"></path></svg>
+                        </div>
+                        <h4 class="text-xl font-bold text-gray-900 mb-2">Substance Use Disorder (SUD)</h4>
+                        <p class="text-gray-600">We address the physical and energetic patterns of addiction, offering tools to manage cravings, process triggers, and rebuild a stable foundation for life.</p>
+                    </div>
+                    <div class="p-6 bg-primary/5 rounded-xl card">
+                        <div class="text-primary mb-3">
+                            <!-- Icon for COD -->
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </div>
+                        <h4 class="text-xl font-bold text-gray-900 mb-2">Co-Occurring Disorders (COD)</h4>
+                        <p class="text-gray-600">The energy modalities help soothe anxiety, release trauma, and harmonize mood imbalances often intertwined with addiction, promoting mental and emotional stability.</p>
+                    </div>
+                    <div class="p-6 bg-primary/5 rounded-xl card">
+                        <div class="text-primary mb-3">
+                            <!-- Icon for Holistic Healing -->
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 15.546c-.524 0-1.04-.153-1.474-.44l-1.03-1.03a3 3 0 00-4.242 0l-2.06 2.06c-.307.307-.73.477-1.164.477H8.25c-.295 0-.58-.109-.806-.302L3 11.5"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c0-4.418 4.477-8 10-8s10 3.582 10 8z"></path></svg>
+                        </div>
+                        <h4 class="text-xl font-bold text-gray-900 mb-2">Our Holistic View</h4>
+                        <p class="text-gray-600">We work with the body's subtle energy fields, complementing counseling and clinical treatment to resolve core issues at the spiritual and energetic level.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Modalities Section -->
+        <section id="modalities" class="py-20 bg-primary/5">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <span class="text-secondary font-semibold uppercase tracking-wider">The Tools of Transformation</span>
+                    <h3 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mt-2">
+                        Energy Healing Modalities for Recovery
+                    </h3>
+                </div>
+
+                <div class="grid lg:grid-cols-3 gap-10">
+                    <!-- Modality 1: Reiki -->
+                    <div class="bg-white p-8 rounded-2xl shadow-calm card">
+                        <h4 class="text-2xl font-bold text-primary mb-3">Reiki Healing ✨</h4>
+                        <p class="text-gray-600 mb-4">
+                            Reiki is a gentle, non-invasive energy transfer technique that promotes deep relaxation and stress reduction.
+                        </p>
+                        <ul class="list-disc list-inside text-gray-700 space-y-1">
+                            <li><span class="font-medium">Emotional Release:</span> Helps clear blocked energy related to past trauma or emotional pain.</li>
+                            <li><span class="font-medium">Stress & Anxiety:</span> Calms the nervous system, reducing the physical urges associated with cravings.</li>
+                            <li><span class="font-medium">Grounding:</span> Facilitates a stronger connection to the body and present moment.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Modality 2: Muscle Testing / Energy Psychology -->
+                    <div class="bg-white p-8 rounded-2xl shadow-calm card">
+                        <h4 class="text-2xl font-bold text-primary mb-3">Applied Kinesiology (Muscle Testing) 🔬</h4>
+                        <p class="text-gray-600 mb-4">
+                            Muscle Testing is used as a bio-feedback tool to access subconscious truths about triggers, nutritional needs, and energetic imbalances. **We offer distant healing sessions, meaning powerful relief from cravings or mental fog can be achieved in as little as 20 minutes, even if you are at work or busy.**
+                        </p>
+                        <ul class="list-disc list-inside text-gray-700 space-y-1">
+                            <li><span class="font-medium">Identify Triggers:</span> Pinpoint emotional or environmental triggers held in the body.</li>
+                            <li><span class="font-medium">Nutritional Support:</span> Determine specific vitamins or supplements that energetically support the recovery process.</li>
+                            <li><span class="font-medium">Subconscious Clarity:</span> Bypasses the conscious mind to reveal underlying limiting beliefs.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Modality 3: Tarot Reading -->
+                    <div class="bg-white p-8 rounded-2xl shadow-calm card">
+                        <h4 class="text-2xl font-bold text-primary mb-3">Tarot Reading for Guidance 🧭</h4>
+                        <p class="text-gray-600 mb-4">
+                            Tarot is utilized as a psychological and spiritual tool for self-reflection and guidance, not prediction.
+                        </p>
+                        <ul class="list-disc list-inside text-gray-700 space-y-1">
+                            <li><span class="font-medium">Current Path Assessment:</span> Provides perspective on current challenges and potential roadblocks in recovery.</li>
+                            <li><span class="font-medium">Inner Resources:</span> Highlights inherent strengths and internal resources to be activated.</li>
+                            <li><span class="font-medium">Decision Making:</span> Offers clarity on next steps in life, career, and relationships post-addiction.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 4. Carol's Origin Story -->
+        <section id="origin" class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <span class="text-primary font-semibold uppercase tracking-wider">Our Deepest Motivation</span>
+                    <h3 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mt-2">
+                        Carol's Healing Journey: When Traditional Methods Fall Short 🦋
+                    </h3>
+                </div>
+                
+                <div class="max-w-4xl mx-auto p-8 bg-secondary/10 rounded-2xl border-l-8 border-secondary shadow-calm">
+                    <p class="text-lg text-gray-700 leading-relaxed italic mb-6">
+                        "For years, I struggled with addiction, anxiety, depression, and ADHD despite countless efforts—three inpatient/outpatient programs, PHP, IOPs, NA, Smart Recovery, and CODA. I was constantly battling brain fog, severe emotional distress, and inability to focus, relying on various medications that only managed symptoms. I couldn't hold down a job or function daily."
+                    </p>
+                    <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                        "Everything changed after I finally accepted a session with my sister, an Emotion Code practitioner. After just one muscle testing session, I felt a lightness—I got through the day without obsessing over using. With consistent energy work (3 sessions a week), I started to smile, re-engage with life, and overcome procrastination. I began taking classes and finally found the clarity to finish tasks, sleep peacefully, and practice self-care."
+                    </p>
+                    <p class="text-lg text-gray-700 leading-relaxed">
+                        "Energy healing was my salvation. It allowed me to release past trauma and hurt without reliving it, helping me learn to be kind to myself and find happiness again. My passion is to help others who feel stuck—to show you that even when traditional tools don't stick, **releasing emotional blocks through energy work can have a huge, successful impact on your road to recovery.** We are here to support you in every moment of struggle, stress, or grief."
+                    </p>
+                    <p class="text-base font-semibold text-primary mt-6 text-right">— Carol Andrews, Certificated Reiki Master/Teacher</p>
+                </div>
+                
+                <div class="text-center mt-8">
+                    <p class="text-gray-600 text-lg">**Support is Available 24/7:** If cravings or mental health struggles arise, reach out. Distance healing can shift your energy in just 20 minutes, helping you get back to your day and enjoy life again.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 5. Services & Pricing Section -->
+        <section id="pricing" class="py-20 bg-secondary/5">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-8">
+                    <span class="text-secondary font-semibold uppercase tracking-wider">Your Investment in Healing</span>
+                    <h3 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mt-2">
+                        Session Structure & Packages
+                    </h3>
+                    <p class="text-lg text-gray-600 max-w-3xl mx-auto mt-4">
+                        All sessions are conducted remotely (distance healing) and utilize a combination of our core modalities based on your needs.
+                    </p>
+                    <!-- IMPORTANT: Affordability Note -->
+                    <div class="mt-6 bg-white p-4 rounded-xl shadow-md max-w-xl mx-auto border-l-4 border-red-500">
+                        <p class="text-base text-gray-800 font-semibold">
+                            Affordability Note: We do not accept insurance at this time.
+                        </p>
+                        <p class="text-sm text-gray-600 mt-1">
+                            Please contact us directly regarding sliding scale options for clients on a fixed or low income. We believe healing should be accessible.
+                        </p>
+                    </div>
+                    <!-- End Affordability Note -->
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                    
+                    <!-- Option 1: Quick Release Session -->
+                    <div class="p-8 bg-white rounded-2xl shadow-xl border-t-8 border-secondary flex flex-col justify-between card">
+                        <div>
+                            <p class="text-sm font-semibold uppercase text-secondary">Immediate Support</p>
+                            <h4 class="text-3xl font-bold text-gray-900 my-2">Quick Release</h4>
+                            <p class="text-4xl font-extrabold text-primary mb-6">$65 <span class="text-base font-medium text-gray-500">/ 20 mins</span></p>
+                            
+                            <p class="text-gray-700 mb-4">Designed for crisis moments, managing intense cravings, or sudden onset of anxiety/grief.</p>
+                            <ul class="text-gray-600 space-y-2 mb-8">
+                                <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Targeted muscle testing release.</li>
+                                <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Immediate energetic shift.</li>
+                                <li class="flex items-center text-gray-400"><svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>No in-depth consultation.</li>
+                            </ul>
+                        </div>
+                        <a href="#contact" class="block text-center px-6 py-3 border border-secondary text-base font-bold rounded-xl text-secondary hover:bg-secondary/10 transition duration-300">
+                            Book Quick Session
+                        </a>
+                    </div>
+                    
+                    <!-- Option 2: Full Foundational Session (Recommended) -->
+                    <div class="p-8 bg-primary text-white rounded-2xl shadow-2xl border-t-8 border-secondary flex flex-col justify-between card transform scale-105">
+                        <div>
+                            <p class="text-sm font-semibold uppercase text-secondary">Most Popular</p>
+                            <h4 class="text-3xl font-bold my-2">Foundational Session</h4>
+                            <p class="text-4xl font-extrabold mb-6">$120 <span class="text-base font-medium text-purple-200">/ 50 mins</span></p>
+                            
+                            <p class="mb-4">A complete, deep dive session to address core emotional and energetic imbalances.</p>
+                            <ul class="space-y-2 mb-8">
+                                <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>In-depth intake and consultation.</li>
+                                <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Full Reiki and Energy Psychology clearing.</li>
+                                <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Actionable integration homework.</li>
+                            </ul>
+                        </div>
+                        <a href="#contact" class="block text-center px-6 py-3 border border-transparent text-base font-bold rounded-xl shadow-lg bg-secondary hover:bg-emerald-600 transition duration-300">
+                            Start Foundational Healing
+                        </a>
+                    </div>
+
+                    <!-- Option 3: Weekly Recovery Package -->
+                    <div class="p-8 bg-white rounded-2xl shadow-xl border-t-8 border-secondary flex flex-col justify-between card">
+                        <div>
+                            <p class="text-sm font-semibold uppercase text-secondary">Commitment to Change</p>
+                            <h4 class="text-3xl font-bold text-gray-900 my-2">4-Session Package</h4>
+                            <p class="text-4xl font-extrabold text-primary mb-6">$440 <span class="text-base font-medium text-gray-500">/ per month (Save $40)</span></p>
+                            
+                            <p class="text-gray-700 mb-4">Recommended for sustained recovery, anxiety management, and long-term trauma release.</p>
+                            <ul class="text-gray-600 space-y-2 mb-8">
+                                <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Four 50-minute sessions.</li>
+                                <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Priority scheduling.</li>
+                                <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Weekly accountability and support.</li>
+                            </ul>
+                        </div>
+                        <a href="#contact" class="block text-center px-6 py-3 border border-secondary text-base font-bold rounded-xl text-primary bg-secondary/20 hover:bg-secondary/30 transition duration-300">
+                            Inquire about Package
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 6. Testimonials Section -->
+        <section id="testimonials" class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <span class="text-secondary font-semibold uppercase tracking-wider">Real Stories, Real Healing</span>
+                    <h3 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mt-2">
+                        What Our Clients Say
+                    </h3>
+                </div>
+                
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Testimonial 1 -->
+                    <div class="p-6 bg-secondary/5 rounded-xl shadow-lg border-t-4 border-secondary">
+                        <p class="text-xl text-gray-700 italic mb-4">"Working with Carol helped me address the deep-seated anxiety that always led me back to relapse. The energy work created a peace I hadn't felt in years."</p>
+                        <div class="font-semibold text-primary">— Sarah J., 4 Months Sober</div>
+                    </div>
+                    
+                    <!-- Testimonial 2 -->
+                    <div class="p-6 bg-secondary/5 rounded-xl shadow-lg border-t-4 border-secondary">
+                        <p class="text-xl text-gray-700 italic mb-4">"The combination of DBT insights and Reiki healing was exactly what I needed. It's truly holistic—treating both the mind and the spirit."</p>
+                        <div class="font-semibold text-primary">— Michael P., 1 Year in Recovery</div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="p-6 bg-secondary/5 rounded-xl shadow-lg border-t-4 border-secondary">
+                        <p class="text-xl text-gray-700 italic mb-4">"I used to feel stuck in the trauma of the past. Carol’s approach helped me finally process and release that heavy energy. I feel lighter and free."</p>
+                        <div class="font-semibold text-primary">— Lisa R., Anxiety & Trauma Client</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 7. Prepare & Integrate Section -->
+        <section id="prepare" class="py-20 bg-primary/10">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <span class="text-primary font-semibold uppercase tracking-wider">Maximize Your Results</span>
+                    <h3 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mt-2 flex items-center justify-center">
+                        Optimizing Your Healing: Before and Aftercare
+                        <span class="text-3xl ml-3">💎</span>
+                    </h3>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-10">
+                    <!-- Before Care -->
+                    <div class="p-8 bg-white rounded-2xl shadow-calm border-t-4 border-primary">
+                        <h4 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
+                            <svg class="w-6 h-6 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            Preparing for Your Session
+                        </h4>
+                        <ul class="space-y-4 text-gray-700">
+                            <li class="flex items-start">
+                                <span class="text-secondary font-bold mr-2 mt-1">1.</span>
+                                <div>
+                                    <p class="font-semibold">Hydration and Rest:</p>
+                                    <p class="text-sm">Drink plenty of water the day before and the day of your session. Adequate hydration helps energy flow and assists in detoxification. Aim for a good night's sleep.</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-secondary font-bold mr-2 mt-1">2.</span>
+                                <div>
+                                    <p class="font-semibold">Set an Intention:</p>
+                                    <p class="text-sm">Before we begin, quietly consider what you most want to achieve or release (e.g., reduce anxiety, clear brain fog, find clarity on a next step). This focuses the healing energy.</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-secondary font-bold mr-2 mt-1">3.</span>
+                                <div>
+                                    <p class="font-semibold">Minimize Stimulants:</p>
+                                    <p class="text-sm">If possible, reduce caffeine, sugar, and alcohol intake 24 hours prior. This allows your energetic body to be more receptive to the work.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- After Care -->
+                    <div class="p-8 bg-white rounded-2xl shadow-calm border-t-4 border-primary">
+                        <h4 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
+                            <svg class="w-6 h-6 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.417a11.954 11.954 0 01-2.924-.766l-1.636 1.636a2 2 0 000 2.828l.707.707M19 12a7 7 0 10-14 0 7 7 0 0014 0z"></path></svg>
+                            Integrating Your Healing
+                        </h4>
+                        <ul class="space-y-4 text-gray-700">
+                            <li class="flex items-start">
+                                <span class="text-secondary font-bold mr-2 mt-1">1.</span>
+                                <div>
+                                    <p class="font-semibold">Gentle Self-Care:</p>
+                                    <p class="text-sm">The energy continues to integrate for days. Prioritize rest, eat nourishing foods, and avoid strenuous activity immediately after. Listen to what your body truly needs.</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-secondary font-bold mr-2 mt-1">2.</span>
+                                <div>
+                                    <p class="font-semibold">Journaling & Observation:</p>
+                                    <p class="text-sm">Pay attention to your mood, thoughts, and dreams in the following days. Write down any emotional shifts or insights that emerge as blocks are released.</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-secondary font-bold mr-2 mt-1">3.</span>
+                                <div>
+                                    <p class="font-semibold">Use Meditation to Anchor Change:</p>
+                                    <p class="text-sm">A short, daily meditation (even 5 minutes) helps anchor the positive energetic changes we created. It strengthens your inner compass, reinforcing self-love and presence, and significantly improving your ability to cope with stress and grief.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 8. Ethics & Practitioner Section -->
+        <section id="ethics" class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <span class="text-primary font-semibold uppercase tracking-wider">Trust and Safety</span>
+                    <h3 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mt-2">
+                        Meet the Practitioner & Our Ethical Promise
+                    </h3>
+                </div>
+
+                <div class="lg:flex lg:space-x-12 items-start">
+                    <!-- Practitioner Card/Bio -->
+                    <div class="lg:w-1/3 p-6 bg-primary/10 rounded-2xl shadow-calm mb-8 lg:mb-0">
+                        <img src="http://googleusercontent.com/generated_image_content/0" 
+                             alt="Carol Andrews, Holistic Recovery Practitioner, smiling and holding Tarot cards" 
+                             class="w-24 h-24 mx-auto rounded-full object-cover mb-4 border-4 border-white shadow-md">
+                        
+                        <h4 class="text-2xl font-bold text-gray-900 text-center mb-1">Carol Andrews</h4>
+                        <p class="text-primary font-medium text-center mb-4">Reiki Master/Teacher, DBT, & Energy Psychology Practitioner</p>
+                        <p class="text-sm text-gray-700">Carol is a certified Reiki Master Teacher and Holistic Healing Practitioner who integrates accredited Dialectical Behavior Therapy (DBT) and Energy Psychology for profound change. Her passion for this holistic approach is rooted in her own powerful recovery journey. She specializes in treating trauma, PTSD, and severe anxiety, creating a compassionate, non-judgemental space for spiritual and emotional recovery. She is also a Mental Health Ambassador and Mindfulness Meditation Guide.</p>
+                    </div>
+
+                    <!-- Ethical Commitment -->
+                    <div class="lg:w-2/3 space-y-6">
+                        <h4 class="text-2xl font-bold text-gray-900 mb-3">Our Core Commitment to You</h4>
+                        <div class="p-6 bg-white rounded-xl shadow-calm border border-gray-100">
+                            <h5 class="font-semibold text-lg text-secondary mb-1">Safety First, Always</h5>
+                            <p class="text-gray-600 text-sm">We ensure that energy modalities never replace professional medical or clinical treatment. We work in partnership with your existing recovery team (therapists, doctors) and provide referrals when necessary.</p>
+                        </div>
+                        <div class="p-6 bg-white rounded-xl shadow-calm border border-gray-100">
+                            <h5 class="font-semibold text-lg text-secondary mb-1">Confidentiality & Non-Judgment</h5>
+                            <p class="text-gray-600 text-sm">Your journey is sacred. All sessions are held in the strictest confidence, providing a safe, non-judgmental space to explore your deepest challenges and strengths.</p>
+                        </div>
+                        <div class="p-6 bg-white rounded-xl shadow-calm border border-gray-100">
+                            <h5 class="font-semibold text-lg text-secondary mb-1">Empowerment, Not Dependence</h5>
+                            <p class="text-gray-600 text-sm">Our goal is to give you the tools—Reiki, muscle testing clarity, tarot self-reflection—to become your own inner guide, fostering self-reliance for long-term recovery.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 9. Contact/CTA Section -->
+        <section id="contact" class="py-20 bg-primary shadow-inner">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h3 class="text-4xl font-extrabold text-white mb-4">
+                    Ready to Reclaim Your Power?
+                </h3>
+                <p class="text-xl text-purple-200 mb-8">
+                    Take the first step toward a recovery journey guided by intuition and deep energy alignment. All sessions are confidential and customized to your unique needs.
+                </p>
+
+                <!-- CONTACT INFO BLOCK -->
+                <div class="mb-10 p-6 bg-white/10 rounded-xl inline-block shadow-xl">
+                    <p class="text-xl text-white font-semibold mb-2">
+                        <span class="inline-block mr-2 align-middle">📞</span>
+                        Call or Text: 
+                        <a href="tel:207-719-5798" class="underline hover:text-secondary transition duration-150">207-719-5798</a>
+                    </p>
+                    <p class="text-xl text-white font-semibold">
+                        <span class="inline-block mr-2 align-middle">📧</span>
+                        Email: 
+                        <a href="mailto:info@sacred-dragonfly.org" class="underline hover:text-secondary transition duration-150">info@sacred-dragonfly.org</a>
+                    </p>
+                    <p class="text-sm text-purple-300 mt-2">
+                        *Please allow 24 hours for email response. For immediate support, please text.
+                    </p>
+                </div>
+
+                <div class="max-w-lg mx-auto bg-white p-8 rounded-2xl shadow-2xl">
+                    <form onsubmit="handleContact(event)" class="space-y-4">
+                        <input type="text" id="name" placeholder="Your Name" required
+                               class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-primary focus:border-primary transition duration-150">
+                        <input type="email" id="email" placeholder="Your Email Address" required
+                               class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-primary focus:border-primary transition duration-150">
+                        <textarea id="message" rows="4" placeholder="How can we support your recovery?" required
+                                  class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-primary focus:border-primary transition duration-150"></textarea>
+
+                        <button type="submit"
+                                class="w-full px-6 py-3 border border-transparent text-base font-bold rounded-xl shadow-lg text-white bg-secondary hover:bg-emerald-600 transition duration-300 transform hover:scale-[1.02]">
+                            Send Consultation Request
+                        </button>
+                    </form>
+                    <p id="contact-message" class="mt-4 text-center text-sm text-gray-700 hidden">
+                        <!-- Message will appear here -->
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-lg font-bold text-white mb-2">The Inner Compass</p>
+            <!-- Contact info added to footer -->
+            <div class="text-sm text-gray-400 mb-4 font-medium">
+                <a href="tel:207-719-5798" class="hover:text-white transition duration-150 mx-2">Call/Text: 207-719-5798</a> |
+                <a href="mailto:info@sacred-dragonfly.org" class="hover:text-white transition duration-150 mx-2">Email: info@sacred-dragonfly.org</a>
+            </div>
+            <!-- End Contact info added to footer -->
+            <p class="text-sm text-gray-400">&copy; 2025 Holistic Recovery Services. All Rights Reserved.</p>
+            <p class="text-xs text-gray-500 mt-4">
+                Disclaimer: Energy healing modalities are supplementary and not a replacement for professional medical, psychological, or clinical addiction treatment. Please consult with a licensed healthcare provider.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        function handleContact(event) {
+            event.preventDefault();
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+            const output = document.getElementById('contact-message');
+
+            // Simple mock submission success message
+            output.textContent = `Thank you, ${name}! Your request has been received. We will contact you shortly at ${email} to discuss your recovery needs.`;
+            output.classList.remove('hidden');
+
+            // Clear form fields after "submission"
+            document.getElementById('name').value = '';
+            document.getElementById('email').value = '';
+            document.getElementById('message').value = '';
+        }
+
+        // --- Mobile Navigation Logic ---
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const menuIcon = document.getElementById('menu-icon');
+        const closeIcon = document.getElementById('close-icon');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            menuIcon.classList.toggle('hidden');
+            closeIcon.classList.toggle('hidden');
+        });
+
+        // Basic scroll functionality for smooth navigation and closing the mobile menu
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                // Close mobile menu if open
+                if (!mobileMenu.classList.contains('hidden')) {
+                    mobileMenu.classList.add('hidden');
+                    menuIcon.classList.remove('hidden');
+                    closeIcon.classList.add('hidden');
+                }
+
+                // Smooth scroll
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+
