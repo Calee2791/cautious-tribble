@@ -1,0 +1,18 @@
+# HTML files - prevent HTML code from being added to repository
+*.html
+*.htm
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
